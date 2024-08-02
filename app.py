@@ -33,3 +33,7 @@ def getNotices(soup):
 @app.get("/get")
 async def get_Notices():
     return getNotices(soup)
+
+@app.get("/")
+async def get():
+    return {"message": "Hello"}
