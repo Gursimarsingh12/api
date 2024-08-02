@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import html
 import requests
 from fastapi import FastAPI
-import uvicorn
 
 app = FastAPI()
 
